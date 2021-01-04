@@ -177,7 +177,7 @@ def team_names
   [game_hash[:home][:team_name], game_hash[:away][:team_name]]
 end 
 
-def big_shoe_rebounds(player)
+def big_shoe_rebounds
   binding.pry
   player_helper
 end

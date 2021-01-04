@@ -178,11 +178,11 @@ def team_names
 end 
 
 def big_shoe_rebounds
+  binding.pry
+  # biggest_shoe = game_hash[:home][:players][:shoe]
   
-  biggest_shoe = game_hash[:home][:players][:shoe]
+  # player_helper.find do |player|
   
-  player_helper.find do |player|
-    binding.pry
     
     
 end
